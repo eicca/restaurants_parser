@@ -1,4 +1,4 @@
-# RestaurantsParser
+# restaurants.com parser
 
 TODO: Write a gem description
 
@@ -6,15 +6,11 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'restaurants_parser'
+    gem 'restaurants_parser', git: 'https://github.com/eicca/restaurants_parser'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install restaurants_parser
 
 ## Usage
 

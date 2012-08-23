@@ -14,4 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "restaurants_parser"
   gem.require_paths = ["lib"]
   gem.version       = RestaurantsParser::VERSION
+
+  gem.add_dependency 'mechanize'
+
+  gem.add_development_dependency 'rspec', '>= 2.5'
 end
